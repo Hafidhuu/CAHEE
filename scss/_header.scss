@@ -1,0 +1,33 @@
+.header {
+  background-color: #f9f8fb;
+  &__top {
+    display: flex;
+    justify-content: space-around;
+  }
+  li {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 15px;
+  }
+  &__btm {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+  }
+  &__box {
+    width: 400px;
+    margin-top: 20px;
+  }
+  button {
+    background-color: coral;
+  }
+  &__scroll {
+    width: 30px;
+    height: 40px;
+    margin-left: 550px;
+  }
+  h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+}

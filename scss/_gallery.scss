@@ -1,0 +1,28 @@
+.gallery {
+  background-color: rgba(255, 255, 0, 0.877);
+  &__top {
+    display: inline-block;
+    justify-content: space-between;
+    align-content: center;
+  }
+  &--up {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+  }
+  &--img {
+    width: 800px;
+    padding: 10px;
+  }
+  &--imgs {
+    margin: 20px;
+    justify-content: space-between;
+  }
+  button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: steelblue;
+  }
+}
