@@ -19,10 +19,14 @@
     margin: 20px;
     justify-content: space-between;
   }
-  button {
+  &__image {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    margin: 20px;
+    padding: 20px;
+  }
+  &--btn {
+    display: flex;
     background-color: steelblue;
   }
 }

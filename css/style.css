@@ -238,9 +238,105 @@ table {
   margin: 20px;
   justify-content: space-between;
 }
-.gallery button {
+.gallery__image {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  margin: 20px;
+  padding: 20px;
+}
+.gallery--btn {
+  display: flex;
   background-color: steelblue;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px;
+  flex-wrap: wrap;
+}
+.subscribe h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.subscribe p {
+  width: 500px;
+}
+.subscribe--content {
+  margin: 20px;
+}
+.subscribe--img {
+  max-width: 850px;
+}
+.subscribe button {
+  background-color: #64a875;
+}
+
+.blog {
+  background-color: #a186d6;
+}
+.blog--top {
+  margin: 50px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+}
+.blog h1 {
+  font-size: 30px;
+}
+.blog--up {
+  display: flex;
+  justify-content: space-between;
+}
+.blog button {
+  display: flex;
+  justify-content: center;
+  background-color: #ee4264;
+}
+
+.footer {
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  max-width: 80%;
+}
+.footer h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  padding-top: 50px;
+}
+.footer--inp {
+  background-color: cyan;
+}
+.footer--top {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.footer--input {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.footer--box {
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: flex-start;
+}
+.footer button {
+  background-color: skyblue;
+  width: 70px;
+  margin: 20px;
+}
+.footer--btm {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: black;
+}
+.footer--m {
+  color: red;
 }

@@ -1,0 +1,23 @@
+.blog {
+  background-color: rgb(161, 134, 214);
+  &--top {
+    margin: 50px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+
+  &--up {
+    display: flex;
+    justify-content: space-between;
+  }
+  button {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(238, 66, 100);
+  }
+}

@@ -93,36 +93,41 @@
           <img src="images/taratara.png" alt="taratara" />
         </div>
       </div>
-      <div>
+      <div class="gallery__image">
         <img src="images/smitana.png" alt="smitana" />
         <img src="images/Khurma.png" alt="Khurma" />
       </div>
-      <button>View More</button>
+      <button class="gallery--btn">View More</button>
     </section>
-    <section>
-      <div>
-        <h3>Subscribe To Us</h3>
-        <p>
-          Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-        </p>
+    <section class="subscribe">
+      <div cla>
+        <div>
+          <h3>Subscribe To Us</h3>
+          <p>
+            Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam.
+          </p>
+        </div>
+        <div class="subscribe--content">
+          <textarea
+            name="message"
+            id=""
+            cols="20"
+            rows="1"
+            class="Textarea"
+            placeholder="Your Email Address"
+            spellcheck="false"
+          ></textarea>
+
+          <button>UBSCRIBE</button>
+        </div>
       </div>
-      <div>
-        <textarea
-          name="message"
-          id=""
-          cols="20"
-          rows="1"
-          class="Textarea"
-          placeholder="Your Email Address"
-          spellcheck="false"
-        ></textarea>
-        <button>UBSCIBE</button>
-        <img src="images/barries.png" alt="" />
-      </div>
+
+      <img class="subscribe--img" src="images/barries.png" alt="" />
     </section>
-    <section>
-      <div>
+    <section class="blog">
+      <div class="blog--top">
         <h1>Blog</h1>
         <p>
           Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -130,78 +135,98 @@
           Duis aute irure dolor in reprehenderit in voluptate velit.
         </p>
       </div>
-      <div>
-        <h3>20</h3>
-        <h3>NOV</h3>
-        <p>Green Smoothies: Too Much of a Good Thing?</p>
-        <h5>By Auskteez - 2 hours ago</h5>
-      </div>
-      <div>
-        <h3>14</h3>
-        <h3>NOV</h3>
-        <p>Growing Food and a “Thirst” for Innovation</p>
-        <h5>By Auskteez - 3 hours ago</h5>
-      </div>
-      <div>
-        <h3>10</h3>
-        <h3>NOV</h3>
-        <p>Pesticides & Food: What You Need to Know</p>
-        <p>By Auskteez - 6 hours ago</p>
+      <div class="blog--up">
+        <div>
+          <h3>20</h3>
+          <h3>NOV</h3>
+          <p>Green Smoothies: Too Much of a Good Thing?</p>
+          <h5>By Auskteez - 2 hours ago</h5>
+          <img src="images/imgbg1.png" alt="" />
+        </div>
+        <div>
+          <h3>14</h3>
+          <h3>NOV</h3>
+          <p>Growing Food and a “Thirst” for Innovation</p>
+          <h5>By Auskteez - 3 hours ago</h5>
+          <img src="images/imgbg2.png" alt="" />
+        </div>
+        <div>
+          <h3>10</h3>
+          <h3>NOV</h3>
+          <p>Pesticides & Food: What You Need to Know</p>
+          <p>By Auskteez - 6 hours ago</p>
+          <img src="images/imgbg3.png" alt="" />
+        </div>
       </div>
       <button>VIEW MORE</button>
     </section>
-    <footer>
+    <footer class="footer">
       <h1>CONTACT</h1>
-      <p>
+      <p class="footer--top">
         For new projects, ideas, business or anything you'd like to discuss,
         contact with me!
       </p>
-      <div>
-        <form action=""></form>
-        <input
-          type="Name"
-          name="Name"
-          id="Name"
-          class="input-field"
-          placeholder="Masudh Haji"
-        />
-        <input
-          type="Email"
-          name="Eail"
-          id="Email"
-          class="input-field"
-          placeholder="Your Email"
-        />
-        <input
-          type="Number"
-          name="Number"
-          id="Number"
-          class="input-field"
-          placeholder="Your Phone Number"
-        />
-        <textarea
-          name="message"
-          id=""
-          cols="30"
-          rows="7"
-          class="Textarea"
-          placeholder="Your Message"
-          spellcheck="false"
-        ></textarea>
-        <button>SEND</button>
+      <div class="footer--input">
+        <div class="footer--box">
+          <form action="">
+            <li>
+              <input
+                class="footer--inp"
+                type="Name"
+                name="Name"
+                id="Name"
+                class="input-field"
+                placeholder="Masudh Haji"
+              />
+            </li>
+            <li>
+              <input
+                class="footer--inp"
+                type="Email"
+                name="Eail"
+                id="Email"
+                class="input-field"
+                placeholder="Your Email"
+              />
+            </li>
+            <li>
+              <input
+                class="footer--inp"
+                type="Number"
+                name="Number"
+                id="Number"
+                class="input-field"
+                placeholder="Your Phone Number"
+              />
+            </li>
+            <li>
+              <textarea
+                class="footer--inp"
+                name="message"
+                id=""
+                cols="30"
+                rows="7"
+                class="Textarea"
+                placeholder="Your Message"
+                spellcheck="false"
+              ></textarea>
+            </li>
+            <button>SEND</button>
+          </form>
+        </div>
+        <div>
+          <h4>ADDRESS</h4>
+          <p>123 City name, Street, City, Country</p>
+          <h3>EMAIL</h3>
+          <p>cahee@domain.com</p>
+          <h3>PHONE</h3>
+          <p>+012 345 6789</p>
+        </div>
       </div>
-      <div>
-        <h4>ADDRESS</h4>
-        <p>123 City name, Street, City, Country</p>
-        <h3>EMAIL</h3>
-        <p>cahee@domain.com</p>
-        <h3>PHONE</h3>
-        <p>+012 345 6789</p>
-      </div>
-      <div>
+      <div class="footer--btm">
         <p>© 2015 Company. All right reserved.</p>
         <img src="images/logo-small.png" alt="" />
-        <p>Made with love by Auskteez</p>
+        <p>Made with<span class="footer--m">love</span> by Masudh</p>
       </div>
     </footer>
   </body>

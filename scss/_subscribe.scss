@@ -1,0 +1,23 @@
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px;
+  flex-wrap: wrap;
+  h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  p {
+    width: 500px;
+  }
+  &--content {
+    margin: 20px;
+  }
+  &--img {
+    max-width: 850px;
+  }
+  button {
+    background-color: rgb(100, 168, 117);
+  }
+}
